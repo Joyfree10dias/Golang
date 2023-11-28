@@ -35,6 +35,11 @@ func main(){
 	// Method 2 
 	numbers = removeElement(numbers, 2)
 	fmt.Println("Numbers :",numbers)
+
+	// Declare a 2D array 
+	var Matrix = [3][3]int {{1, 2}, {3, 4}} // automatically initialises 0 in empty spaces
+	fmt.Println("Matrix :",Matrix) 
+	fmt.Println("Matrix[0][1] =",Matrix[0][1])
 }
 
 // Removes element from the desired position
