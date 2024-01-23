@@ -4,4 +4,7 @@ use (
 	./DataStructures
 	./GoBasics
 	./GoAdvance
+	./DSA
+	./Project/GoServerMux
+	./Project/GoServerGin
 )
