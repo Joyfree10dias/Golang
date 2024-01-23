@@ -1,0 +1,13 @@
+### List shopping Items
+GET https://miniature-memory-4pqvgw5v776fqqpp-8080.app.github.dev/books/The%20Book/page/Melodi/ 
+
+### Create new shopping item
+POST https://miniature-memory-4pqvgw5v776fqqpp-8080.app.github.dev/shopping-items
+Content-Type: application/json
+
+{
+    "name": "Pizza"
+}
+
+### Remove shopping item
+DELETE https://miniature-memory-4pqvgw5v776fqqpp-8080.app.github.dev/shopping-items/uuid
